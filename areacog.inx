@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>Add Center of Gravity</_name>
+    <id>org.algrant.physics.areacog</id>
+    <effect>
+		<object-type>path</object-type>
+        <effects-menu>
+            <submenu _name="Balance"/>
+        </effects-menu>
+    </effect>
+    <script>
+        <command location="inx" interpreter="python">areacog.py</command>
+    </script>
+</inkscape-extension>
